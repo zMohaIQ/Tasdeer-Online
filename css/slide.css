@@ -120,7 +120,7 @@ body {
 .slideshow .slide .image {
   width: 100%;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   height: 100%;
 }
 .slideshow .slide-content {

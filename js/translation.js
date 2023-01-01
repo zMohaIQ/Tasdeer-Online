@@ -1,17 +1,23 @@
 const translations = {
   en: {
-    articles: `Articles`,
+    home: `Home`,
     gallery: `Gallery`,
-    features: `Features`,
     products: `Products`,
-    about: `About`,
+    about: `About us`,
+    contact: `Contact Us`,
+    quote_welcome: `Welcome to,`,
+    quote_p: `Arabian Rubber Company and learn how to request your order of rubber tiles and Reclaimed rubber from recycled tires. Reclaimed rubber is manufactured with unprecedented quality, opening up a whole new world of interesting application prospects.`,
+    logo: `RUBBER FLOORING TILES`,
   },
   ar: {
-    articles: `المقالات`,
+    home: `الصفحة الرئسية`,
     gallery: `الصور`,
-    features: `السمات`,
     products: `المنتجات`,
     about: `حول`,
+    contact: `تواصل معنا`,
+    quote_welcome: `مرحبا بكم`,
+    quote_p: `الشركة العربية للمطاط وتعلم كيفية طلب طلبك من البلاط المطاطي والمطاط المستصلح من الإطارات المعاد تدويرها. يتم تصنيع المطاط المستصلح بجودة غير مسبوقة ، مما يفتح عالما جديدا تماما من آفاق التطبيق المثيرة للاهتمام.`,
+    logo: `الأرضيات المطاطية`,
   },
 };
 
