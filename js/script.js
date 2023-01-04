@@ -1,6 +1,4 @@
-// window.addEventListener(`scroll`, () => {
-//   console.log();
-// });
+//                            Header Nav Background Color
 
 // First, we need to get a reference to the header element
 const header = document.querySelector(".header");

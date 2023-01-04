@@ -4,7 +4,7 @@
   --main-transition: 0.3s;
   --main-backgroundColor: url(../imgs/peakpx-4.jpg);
   --second-backgroundColor: rgb(27, 27, 27);
-  --hover-backgroundColor: rgb(78, 78, 78);
+  --hover-backgroundColor: rgba(78, 78, 78, 0.3);
 }
 
 html {
@@ -136,6 +136,8 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   transition: var(--main-transition);
+  margin-top: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 .header .lang button:hover {
@@ -166,7 +168,7 @@ body {
 @media (max-width: 769px) {
   .header .logo {
     text-align: center;
-    margin-left: 12px;
+    margin-left: 9px;
     margin-top: 5px;
   }
 }
@@ -354,12 +356,13 @@ body {
 }
 .product .box-holder .box img {
   width: 300px;
+  height: 200px;
   border: 3px solid rgba(255, 255, 255, 0.329);
   border-radius: 5px;
   transition: var(--main-transition);
 }
 .product .box-holder .box img:hover {
-  transform: rotate(0deg) scale(1.05);
+  transform: rotate(0deg) scale(1.1);
   transition: var(--main-transition);
 }
 /* End Product */
@@ -431,7 +434,7 @@ body {
   top: -100px;
   width: 240px;
   height: 150px;
-  border: 2px solid var(--hover-backgroundColor);
+
   transition: var(--main-transition);
 }
 
