@@ -112,10 +112,10 @@
 .cycle_text {
   width: 100%;
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--main-color);
   text-align: center;
-  margin: 0px;
+  margin-bottom: 20px;
 }
 .cycle_section_2 {
   width: 100%;
@@ -181,7 +181,7 @@
 .lorem_text {
   width: 100%;
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--main-color);
   margin: 0px;
   padding-top: 40px;
