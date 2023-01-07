@@ -3,7 +3,10 @@
     overflow-x: hidden;
   }
 }
-
+body {
+  font: 14px/2 "Open sans", sans-serif;
+  letter-spacing: 0.05em;
+}
 /* Start Special Head */
 .landing {
   background-image: url(../imgs/peakpx-3.jpg);
@@ -92,7 +95,7 @@
   width: 100%;
   float: left;
   padding-bottom: 90px;
-  background-color: rgba(32, 32, 32, 0.438);
+  background-color: rgb(29, 29, 29);
   position: relative;
   z-index: 1;
   overflow: hidden;
