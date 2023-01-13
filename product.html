@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Master CSS -->
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <!-- WOW CSS -->
+    <link rel="stylesheet" href="./css/animate.css" />
+    <!-- Title -->
+    <title>Online Shop</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+      <div class="container">
+        <a href="index.html" class="logo"><img src="imgs/logo.png" alt="" /></a>
+        <ul class="main-nav">
+          <li><a href="index.html" data-i18n="home">Home</a></li>
+          <li><a href="#" data-i18n="gallery">Gallery</a></li>
+          <li><a href="product.html" data-i18n="products">Products</a></li>
+          <li><a href="about.html" data-i18n="about">About us</a></li>
+          <li><a href="#" data-i18n="contact"> Contact us</a></li>
+        </ul>
+        <div class="lang">
+          <button class="text-main" value="ar">AR</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start Products -->
+    <div class="products">
+      <div class="overlayy"></div>
+      <div class="special-heading wow fadeInUp" id="" data-wow-delay="0.1s">
+        <h1 data-i18n="product_our_product">OUR PRODUCTS</h1>
+      </div>
+      <div class="container">
+        <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-1-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+        <div class="card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-2-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+        <div class="card wow fadeInRight" data-wow-delay="0.1s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-1-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+        <div class="card wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-1-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+        <div class="card wow fadeInUp" data-wow-delay="0.2s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-2-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+        <div class="card wow fadeInRight" data-wow-delay="0.2s">
+          <div class="imgBox">
+            <a class="show-modal">
+              <img src="imgs/shop-1-removebg-preview.png" alt="" class="mouse" />
+            </a>
+          </div>
+
+          <div class="contentBox wow fadeInUp" data-wow-delay="0.3s">
+            <h3 data-i18n="product_one">Rubber Flooring</h3>
+            <a class="buy show-modal" data-i18n="product_one_see_more">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Products -->
+
+    <!-- Start Modal Section -->
+    <div class="modal hidden bg-modal">
+      <div class="shop">
+        <div class="container modal_one">
+          <div class="box">
+            <a class="close close-modal"></a>
+            <div class="images">
+              <div class="img-holder active">
+                <img src="imgs/shop-1.jpeg" />
+              </div>
+              <div class="img-holder">
+                <img src="imgs/shop-2.jpeg" />
+              </div>
+              <div class="img-holder">
+                <img src="imgs/shop-1.jpeg" />
+              </div>
+              <div class="img-holder">
+                <img src="imgs/shop-2.jpeg" />
+              </div>
+            </div>
+            <div class="holder">
+              <div class="basic-info">
+                <h1 data-i18n="product_one_info_mainOne">Rubber Tiles</h1>
+              </div>
+              <div class="description">
+                <ul class="info">
+                  <li data-i18n="product_one_info_mainOne_one">Strong resilience against impact.</li>
+                  <li data-i18n="product_one_info_mainOne_two">High sound & shock absorbing properties.</li>
+                  <li data-i18n="product_one_info_mainOne_three">Good anti-slip surface.</li>
+                  <li data-i18n="product_one_info_mainOne_four">Good waterproof properties.</li>
+                  <li data-i18n="product_one_info_mainOne_five">Hygienic & easy to clean.</li>
+                  <li data-i18n="product_one_info_mainOne_six">Good anti-fatigue properties.</li>
+                </ul>
+                <div class="info">
+                  <h1 data-i18n="product_one_info_mainTwo">About Tiles</h1>
+                  <ul class="about">
+                    <li data-i18n="product_one_info_mainTwo_one">
+                      High-impact Arabian Company rubber fitness flooring is the most extreme interlocking fitness tile on the market.
+                    </li>
+                    <br />
+                    <li data-i18n="product_one_info_mainTwo_two">Designed for maximum performance and durability.</li>
+                    <br />
+                    <li data-i18n="product_one_info_mainTwo_three">
+                      Easy to install and maintain Arabian Company rubber fitness tiles provide a safe and comfortable resilient rubber flooring option in any
+                      fitness space- commercial or residential, indoor or outdoor.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <!-- End Modal Section -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3 class="wow fadeInUp" data-wow-delay="0.1s">Tasdeer-Online</h3>
+          <ul class="social wow fadeInUp" data-wow-delay="0.2s">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text wow fadeInUp" data-wow-delay="0.3s">Arab Company for Rubber Production & products.</p>
+        </div>
+        <div class="box">
+          <div class="line wow fadeInUp" data-wow-delay="0.1s">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Plot No 246 5 Th industrial zone, Sadat city, Egypt.</div>
+          </div>
+          <div class="line wow fadeInUp" data-wow-delay="0.2s">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00.</div>
+          </div>
+          <div class="line wow fadeInUp" data-wow-delay="0.3s">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+201022032110</span>
+              <span>+201009278777</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="imgs/footer-1.jpeg" alt="" class="wow fadeInUp" />
+          <img src="imgs/footer-2.jpeg" alt="" class="wow fadeInUp" />
+          <img src="imgs/footer-3.jpeg" alt="" class="wow fadeInUp" />
+          <img src="imgs/footer-4.jpeg" alt="" class="wow fadeInUp" />
+          <img src="imgs/footer-5.jpeg" alt="" class="wow fadeInUp" />
+        </div>
+      </div>
+    </div>
+
+    <!-- End Footer -->
+
+    <!--Start JS-->
+    <script src="./js/translation.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!--End JS-->
+  </body>
+</html>

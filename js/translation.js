@@ -6,7 +6,7 @@ const translations = {
     products: `Products`,
     about: `About us`,
     contact: `Contact Us`,
-    quote_welcome: `Welcome to,`,
+    quote_welcome: `Welcome to`,
     quote_p: `Arabian Rubber Company and learn how to request your order of rubber tiles and Reclaimed rubber from recycled tires. Reclaimed rubber is manufactured with unprecedented quality, opening up a whole new world of interesting application prospects.`,
     product_name_one: `Reclamied Rubber`,
     product_name_two: `Rubber Flooring`,
@@ -51,6 +51,22 @@ const translations = {
     about_our_vision: `OUR VISION`,
     about_our_vision_text: `Our vision is to maintain reliable and high-quality suppliers of high-quality materials on a regular basis which form the basis for building
                 long-term partnerships, and to take care of our company to maintain market demands.`,
+    // Product HTML
+    product_our_product: `Out Products`,
+    product_one: `Rubber Flooring`,
+    product_one_see_more: `SEE MORE`,
+    product_one_info_mainOne: `Rubber Tiles`,
+    product_one_info_mainOne_one: `Strong resilience against impact.`,
+    product_one_info_mainOne_two: `High sound & shock absorbing properties.`,
+    product_one_info_mainOne_three: `Good anti-slip surface.`,
+    product_one_info_mainOne_four: `Good waterproof properties.`,
+    product_one_info_mainOne_five: `Hygienic & easy to clean.`,
+    product_one_info_mainOne_six: `Good anti-fatigue properties.`,
+    product_one_info_mainTwo: `About Tiles`,
+    product_one_info_mainTwo_one: `High-impact Arabian Company rubber fitness flooring is the most extreme interlocking fitness tile on the market.`,
+    product_one_info_mainTwo_two: `Designed for maximum performance and durability.`,
+    product_one_info_mainTwo_three: `Easy to install and maintain Arabian Company rubber fitness tiles provide a safe and comfortable resilient rubber flooring option in any
+                      fitness space- commercial or residential, indoor or outdoor.`,
   },
   ar: {
     // Index HTML
@@ -93,10 +109,25 @@ const translations = {
     about_our_strategy_text: `تهتم استراتيجية شركتنا بالاهتمام بعملائنا ، والنظر بعناية في احتياجاتهم ، وتطوير خدماتنا ، والاستدامة والموثوقية والتفوق في كوننا شريكا موثوقا به .`,
     about_our_vision: `رؤيتنا`,
     about_our_vision_text: `تتمثل رؤيتنا في الحفاظ على موردين موثوقين وذوي جودة عالية للمواد عالية الجودة على أساس منتظم والتي تشكل الأساس لبناء شراكات طويلة الأجل ، ورعاية شركتنا للحفاظ على متطلبات السوق .`,
+    // Product HTML
+    product_our_product: `المنتجات`,
+    product_one: `الارضية المطاطية`,
+    product_one_see_more: `للمزيد`,
+    product_one_info_mainOne: `البلاط المطاطي`,
+    product_one_info_mainOne_one: `مرونة قوية ضد التأثير .`,
+    product_one_info_mainOne_two: `خصائص عالية الصوت وامتصاص الصدمات .`,
+    product_one_info_mainOne_three: `سطح جيد مضاد للانزلاق .`,
+    product_one_info_mainOne_four: `خصائص جيدة للماء .`,
+    product_one_info_mainOne_five: `صحية وسهلة التنظيف .`,
+    product_one_info_mainOne_six: `خصائص جيدة لمكافحة التعب .`,
+    product_one_info_mainTwo: `حول البلاط`,
+    product_one_info_mainTwo_one: `أرضيات اللياقة البدنية المطاطية عالية التأثير من الشركة العربية هي بلاط اللياقة البدنية الأكثر تشابكا في السوق .`,
+    product_one_info_mainTwo_two: `وهي مصممة لتحقيق أقصى قدر من الأداء والمتانة .`,
+    product_one_info_mainTwo_three: ` سهل التركيب والصيانة يوفر بلاط اللياقة المطاطي من الشركة العربية خيارا آمنا ومريحا للأرضيات المطاطية المرنة في أي مساحة للياقة البدنية - تجارية أو سكنية ، داخلية أو خارجية .`,
   },
 };
 
-const languageSelector = document.querySelector(".text-primary");
+const languageSelector = document.querySelector(".text-main");
 
 languageSelector.addEventListener("click", (event) => {
   if (languageSelector.textContent === "EN") {
