@@ -4,39 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Master CSS -->
-    <link rel="stylesheet" href="css/master.css" />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Rubber Flooring</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <!-- WOW CSS -->
     <link rel="stylesheet" href="./css/animate.css" />
-    <!-- Title -->
-    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <!-- Start Header -->
-    <div class="header" id="header" style="width: 100%">
-      <div class="container">
-        <a href="index.html" class="logo"><img src="imgs/logo.png" alt="" /></a>
-        <ul class="main-nav" style="margin-right: -10px">
-          <li><a href="index.html" data-i18n="home">Home</a></li>
-          <li><a href="#" data-i18n="gallery">Gallery</a></li>
-          <li><a href="product.html" data-i18n="products">Products</a></li>
-          <li><a href="about.html" data-i18n="about">About us</a></li>
-          <li><a href="#" data-i18n="contact"> Contact us</a></li>
-        </ul>
-        <div class="lang">
-          <button class="text-main" value="ar">AR</button>
+    <!--    NAV    -->
+    <nav class="navbar navbar-expand-lg pt-0">
+      <div class="container position-relative">
+        <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a data-i18n="home" class="nav-link active ps-4 pe-4" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="gallery" class="nav-link ps-4 pe-4" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="products" class="nav-link ps-4 pe-4" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="about" class="nav-link ps-4 pe-4" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="contact" class="nav-link ps-4 pe-4" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
+        <button class="btnn p-absolute" type="submit" value="ar">EN</button>
       </div>
-    </div>
-    <!-- End Header -->
-    <!-- Start Landing -->
-    <div class="landing">
+    </nav>
+
+    <!--    LANDING    -->
+
+    <section class="landing">
       <div class="overlay"></div>
       <div class="text">
         <div class="content">
@@ -48,11 +68,11 @@
           </p>
         </div>
       </div>
-    </div>
-    <!-- End Landing -->
+    </section>
 
-    <!-- Start About us -->
-    <div class="cycle_section layout_padding">
+    <!--    ABOUT US    -->
+
+    <section class="cycle_section layout_padding">
       <div class="container">
         <h1 class="cycle_taital wow fadeInUp" data-i18n="about_us" data-wow-delay="0.1s">ABOUT US</h1>
         <p class="cycle_text wow fadeInUp" data-i18n="about_us_text" data-wow-delay="0.2s">
@@ -62,7 +82,6 @@
           <div class="row">
             <div class="col-md-6">
               <div class="box_main wow fadeInLeft">
-                <h6 class="number_text">01</h6>
                 <div class="image_2 wow fadeInLeft" data-wow-delay="0.5s"><img src="imgs/quality-control.png" width="350px" alt="img" /></div>
               </div>
             </div>
@@ -88,7 +107,6 @@
             </div>
             <div class="col-md-6">
               <div class="box_main_3 wow fadeInRight">
-                <h6 class="number_text_2">02</h6>
                 <div class="image_2 wow fadeInRight" data-wow-delay="0.5s"><img src="imgs/transportation.png" width="350px" alt="img" /></div>
               </div>
             </div>
@@ -98,7 +116,6 @@
           <div class="row">
             <div class="col-md-6">
               <div class="box_main_3 wow fadeInLeft">
-                <h6 class="number_text_2">03</h6>
                 <div class="image_2 wow fadeInLeft" data-wow-delay="0.5s"><img src="imgs/responsibility.png" width="350px" alt="img" /></div>
               </div>
             </div>
@@ -125,7 +142,6 @@
             </div>
             <div class="col-md-6">
               <div class="box_main_3 wow fadeInRight">
-                <h6 class="number_text_2">04</h6>
                 <div class="image_2 wow fadeInRight" data-wow-delay="0.5s"><img src="imgs/mission.png" width="400px" alt="img" /></div>
               </div>
             </div>
@@ -135,7 +151,6 @@
           <div class="row">
             <div class="col-md-6">
               <div class="box_main_3 wow fadeInLeft">
-                <h6 class="number_text_2">05</h6>
                 <div class="image_2 wow fadeInLeft" data-wow-delay="0.5s"><img src="imgs/strategy-development.png" width="350px" alt="img" /></div>
               </div>
             </div>
@@ -159,19 +174,17 @@
             </div>
             <div class="col-md-6">
               <div class="box_main_3 wow fadeInRight">
-                <h6 class="number_text_2">06</h6>
                 <div class="image_2 wow fadeInRight" data-wow-delay="0.5s"><img src="imgs/visionary.png" width="350px" alt="img" /></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- End About us -->
+    <!--    FOOTER    -->
 
-    <!-- Start Footer -->
-    <div class="footer">
+    <section class="footer">
       <div class="container">
         <div class="box">
           <h3 class="wow fadeInUp" data-wow-delay="0.1s">Tasdeer-Online</h3>
@@ -219,11 +232,12 @@
           <img src="imgs/footer-5.jpeg" alt="" class="wow fadeInUp" />
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- End Footer -->
-    <script src="./js/translation.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/translation.js"></script>
     <script src="./js/wow.min.js"></script>
     <script>
       new WOW().init();

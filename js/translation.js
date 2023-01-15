@@ -6,11 +6,14 @@ const translations = {
     products: `Products`,
     about: `About us`,
     contact: `Contact Us`,
-    quote_welcome: `Welcome to`,
+    quote_welcome: `About Us`,
     quote_p: `Arabian Rubber Company and learn how to request your order of rubber tiles and Reclaimed rubber from recycled tires. Reclaimed rubber is manufactured with unprecedented quality, opening up a whole new world of interesting application prospects.`,
+    main_our_products: `OUR PRODUCTS`,
     product_name_one: `Reclamied Rubber`,
     product_name_two: `Rubber Flooring`,
     product_name_three: `Rubber Roll`,
+    main_our_cert: `CERTIFICATIONS`,
+    main_services: `Features`,
     services_one: `Commitment`,
     services_two: `Product Quality`,
     services_three: `Manufacturing Capabilities`,
@@ -52,7 +55,7 @@ const translations = {
     about_our_vision_text: `Our vision is to maintain reliable and high-quality suppliers of high-quality materials on a regular basis which form the basis for building
                 long-term partnerships, and to take care of our company to maintain market demands.`,
     // Product HTML
-    product_our_product: `Out Products`,
+    product_our_product: `Our Products`,
     product_one: `Rubber Flooring`,
     product_one_see_more: `SEE MORE`,
     product_one_info_mainOne: `Rubber Tiles`,
@@ -75,11 +78,14 @@ const translations = {
     products: `المنتجات`,
     about: `حول`,
     contact: `تواصل معنا`,
-    quote_welcome: `مرحبا بكم`,
+    quote_welcome: `معلومات عنا`,
     quote_p: `الشركة العربية للمطاط وتعلم كيفية طلب طلبك من البلاط المطاطي والمطاط المستصلح من الإطارات المعاد تدويرها. يتم تصنيع المطاط المستصلح بجودة غير مسبوقة ، مما يفتح عالما جديدا تماما من آفاق التطبيق المثيرة للاهتمام.`,
+    main_our_products: `المنتجات`,
     product_name_one: `المطاط المستصلحة`,
     product_name_two: `البلاط المطاطي`,
     product_name_three: `رول مطاطي`,
+    main_our_cert: `الشهادات`,
+    main_services: `المميزات`,
     services_one: `التزام`,
     services_two: `جودة المنتج`,
     services_three: `قدرات التصنيع`,
@@ -127,7 +133,7 @@ const translations = {
   },
 };
 
-const languageSelector = document.querySelector(".text-main");
+const languageSelector = document.querySelector(".btnn");
 
 languageSelector.addEventListener("click", (event) => {
   if (languageSelector.textContent === "EN") {
@@ -161,7 +167,13 @@ const setLanguage = (language) => {
   });
   if (language === `ar`) {
     document.dir = `rtl`;
+    document.querySelector("#navbarSupportedContent > ul").style.marginLeft = `60px`;
+    document.querySelector("body > nav > div > button.navbar-toggler").style.marginRight = `auto`;
+    document.querySelector("body > nav > div > button.navbar-toggler").style.marginLeft = `1rem`;
   } else {
     document.dir = `ltr`;
+    document.querySelector("#navbarSupportedContent > ul").style.marginLeft = `0px`;
+    document.querySelector("body > nav > div > button.navbar-toggler").style.marginLeft = `auto`;
+    document.querySelector("body > nav > div > button.navbar-toggler").style.marginRight = `1rem`;
   }
 };

@@ -141,11 +141,6 @@
     right: 20px;
     top: 80%;
   }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 8px;
-    padding-left: 8px;
-    font-size: 14px;
-  }
   .login_menu li {
     float: left;
     font-size: 14px;
@@ -190,22 +185,8 @@
     top: 90%;
     display: none;
   }
-  .navbar-toggler:not(:disabled):not(.disabled) {
-    display: block;
-  }
   #main {
     display: none;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../images/toggle-icon1.png);
-    width: 40px;
-  }
-  .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: transparent !important;
-  }
-  .navbar-toggler {
-    padding: 0;
   }
   .header_section {
     background-image: linear-gradient(-13deg, #fff 13%, #274d5a 12%);
@@ -284,11 +265,6 @@
   #navbarSupportedContent {
     transform: translateX(0);
   }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;
-    text-align: center;
-    justify-content: center;
-  }
 
   .login_menu {
     display: none;
@@ -308,25 +284,11 @@
     top: 90%;
     display: none;
   }
-  .navbar-toggler:not(:disabled):not(.disabled) {
-    display: block;
-  }
   .bg-light {
     background-color: #ffffff !important;
   }
   #main {
     display: none;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../images/toggle-icon1.png);
-    width: 40px;
-  }
-  .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: transparent !important;
-  }
-  .navbar-toggler {
-    padding: 0;
   }
   .banner_section .row {
     flex-direction: column-reverse;
@@ -450,11 +412,6 @@
   #navbarSupportedContent {
     transform: translateX(0);
   }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;
-    text-align: center;
-    justify-content: center;
-  }
 
   .login_menu {
     display: none;
@@ -474,22 +431,8 @@
     top: 90%;
     display: none;
   }
-  .navbar-toggler:not(:disabled):not(.disabled) {
-    display: block;
-  }
   .bg-light {
     background-color: #ffffff !important;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../images/toggle-icon1.png);
-    width: 40px;
-  }
-  .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: transparent !important;
-  }
-  .navbar-toggler {
-    padding: 0;
   }
 
   #main {
@@ -614,11 +557,6 @@
 
   #navbarSupportedContent {
     transform: translateX(0);
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;
-    text-align: center;
-    justify-content: center;
   }
 
   .login_menu {
