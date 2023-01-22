@@ -297,7 +297,7 @@ body > nav > div > button.navbar-toggler > svg {
   padding: 45px;
   margin: 15px 0;
   width: 950px;
-  height: 900px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 1fr;
