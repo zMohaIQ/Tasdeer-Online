@@ -13,6 +13,34 @@ body {
   background-color: var(--main-backgroundColor);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #777;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0a132;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f8d142;
+  border-radius: 50px;
+}
+
 /*    NAV    */
 .navbar {
   position: fixed;
